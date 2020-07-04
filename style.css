@@ -93,6 +93,17 @@ html, body {
   position: absolute;
   z-index: -1;   
 }
+#static-input {
+ background:white;
+  padding:10px 15px 10px 15px;  
+  color:#666;
+  max-width:75%;
+  float:left;
+  margin-left:10px; 
+  position:relative;
+  margin-bottom:20px;
+  border-radius:30px;
+}
 #chat-input {
   background: #f4f7f9;
   width:100%; 
