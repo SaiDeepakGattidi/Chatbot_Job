@@ -1,0 +1,252 @@
+<form id="job-form">
+  <section>
+    <h2 class="form-section-title">Personal Information</h2>
+    <div class="row">
+      <div class="col-4">
+        <label class="form-label">First Name</label>
+        <input name="first-name" id="first-name" type="text" required />
+      </div>
+      <div class="col-4">
+        <label class="form-label">Last Name</label>
+        <input name="last-name" type="text" required />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-7">
+        <label class="form-label">Email</label>
+        <input name="email" type="email" required />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-9">
+        <label class="form-label">Address</label>
+        <input name="address-1" type="text" placeholder="Address" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <input name="city" type="text" placeholder="City" />
+      </div>
+      <div class="col-4">
+        <input name="state" type="text" placeholder="State" />
+      </div>
+      <div class="col-4">
+        <input name="zipcode" type="text" placeholder="Zip Code" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <label class="form-label">Contact_no</label>
+        <input name="mobile-phone" type="text" />
+      </div>
+    </div>
+    <div>
+      <div class="col-3">
+        <label class="form-label">Date of Birth</label>
+        <input name="date-of-birth" type="date" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <label class="form-label">Which field are you interested in?</label>
+        <select name="cars" id="cars">
+   <option value="E">Select</option>      
+  <option value="E&T">Engineering and IT</option>
+  <option value="saab">Sales and Marketing</option>
+  <option value="mercedes">Business and Management</option>
+  <option value="audi">Digital Marketing</option>
+
+</select>
+      </div>
+    </div>
+  <section>
+    <h2 class="form-section-title">Work Experience</h2>
+    <section class="form-field-section">
+      <h3 class="form-section-title"></h3>
+    </section>
+    <section class="form-field-section">
+      <div class="row">
+        <div class="col-9">
+          <label class="form-label">Company</label>
+          <input name="emp1-employer" type="text" />
+        </div>
+      </div>
+    </section>
+
+    <section class="form-field-section">
+      <div class="row">
+        <div class="col-9">
+          <label class="form-label">Address</label>
+          <input name="emp1-address-1" type="text" placeholder="Address Line 1" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <input name="emp1-city" type="text" placeholder="City" />
+        </div>
+        <div class="col-4">
+          <input name="emp1-state" type="text" placeholder="State" />
+        </div>
+      </div>
+    </section>
+
+    <section class="form-field-section">
+      <div class="row">
+        <div class="col-3">
+          <label class="form-label">Description</label>
+          <input name="emp1-phone" type="text" />
+        </div>
+      </div>
+    </section>
+    <section class="form-field-section">
+      <div class="row">
+        <div class="col-3">
+          <label class="form-label">Start Date</label>
+          <input name="emp1-start-date" type="date" />
+        </div>
+        <div class="col-3">
+          <label class="form-label">End Date</label>
+          <input name="emp1-end-date" type="date" />
+        </div>
+      </div>
+    </section>
+
+    <section class="form-field-section">
+      <div class="row">
+        <div class="col-5">
+          <label class="form-label">Position/Job Title</label>
+          <input name="emp1-title" type="text" />
+        </div>
+        <div class="col-3">
+          <label class="form-label">Payrate</label>
+          <input name="emp1-payrate" type="text" />
+        </div>
+      </div>
+      
+      <div class="input_fields_container">
+           <button class="btn btn-sm btn-primary add_more_button">Add one more experience</button>
+    </div>
+    </section>
+
+  <section>
+    <h2 class="form-section-title">Education</h2>
+    <section class="form-field-section">
+      <h4 class="form-section-title">High School</h4>
+      <div class="row">
+        <div class="col-4">
+          <label class="form-label">Name</label>
+          <input name="high-school-name" type="text" />
+        </div>
+        <div class="col-4">
+          <label class="form-label">Location</label>
+          <input name="high-school-location" type="text" />
+        </div>
+        <div class="col-4">
+          <label class="form-label">Year of Completion</label>
+          <input name="college-location" type="text" />
+        </div>
+      </div>
+    </section>
+
+    <section class="form-field-section">
+      <div class="row">
+        <div class="col-6">
+          <label class="form-label">Percentage scored</label>
+          <input name="high-school-degree" type="text" />
+        </div>
+      </div>
+    </section>
+
+    <section class="form-field-section">
+      <h4 class="form-section-title">College(+2)</h4>
+      <div class="row">
+        <div class="col-4">
+          <label class="form-label">Name</label>
+          <input name="college-name" type="text" />
+        </div>
+        <div class="col-4">
+          <label class="form-label">Location</label>
+          <input name="college-location" type="text" />
+        </div>
+        <div class="col-4">
+          <label class="form-label">Year of Completion</label>
+          <input name="college-location" type="text" />
+        </div>
+      </div>
+    </section>
+
+    <section class="form-field-section">
+      <div class="row">
+        <div class="col-6">
+          <label class="form-label">Percentage scored</label>
+          <input name="college-degree" type="text" />
+        </div>
+        <div class="col-6">
+          <label class="form-label">Major/Branch</label>
+          <input name="college-major" type="text" />
+        </div>
+      </div>
+    </section>
+
+    <section class="form-field-section">
+      <h4 class="form-section-title">UG</h4>
+      <div class="row">
+        <div class="col-4">
+          <label class="form-label">Name</label>
+          <input name="trade-school-name" type="text" />
+        </div>
+        <div class="col-4">
+          <label class="form-label">Location</label>
+          <input name="trade-school-location" type="text" />
+        </div>
+        <div class="col-4">
+          <label class="form-label">Year Completion</label>
+          <input name="trade-school-last-year-completed" type="text" />
+        </div>
+      </div>
+    </section>
+
+    <section class="form-field-section">
+      <div class="row">
+        <div class="col-6">
+          <label class="form-label">Degree</label>
+          <input name="trade-school-degree" type="text" />
+        </div>
+        <div class="col-6">
+          <label class="form-label">Branch</label>
+          <input name="trade-school-major" type="text" />
+        </div>
+      </div>
+    </section>
+
+    <section class="form-field-section">
+      <div class="row">
+        <div class="col-12">
+          <label class="form-label">List any applicable special skills, training or proficiencies.</label>
+          <input name="skills-training" type="text" />
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <input type="submit" value="Submit" />
+
+</form>
+<!--
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+    $('#job-form').submit(function(e) {
+      e.preventDefault();
+      $.ajax({
+        url: 'https://script.google.com/macros/s/AKfycbz85iNSejOw6cvU6xwOITkHLe61UJv0TYPNls-nsd9aHYKAeZ_x/exec',
+        type: 'post',
+        data: $('#job-form').serialize(),
+        success: function() {
+          alert("Your application has been submitted!");
+        }
+      });
+    });
+  });
+</script>
+-->
