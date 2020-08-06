@@ -33,6 +33,12 @@ var server="http://127.0.0.1:5000";
             document.getElementById("message-box").appendChild(div);
             running = false;
             flag="JS";
+            window.setTimeout(function()
+                    {
+                    // Move to a new location or you can do something else
+                            //window.location.href = "http://localhost:8000/templates/login_signup.html";
+                            window.open("http://localhost:8000/templates/login_signup.html", "_blank");
+                    }, 2000);
             }
     function Cselect() {
             cat_msg="OK, How can I help you";
@@ -69,6 +75,7 @@ var server="http://127.0.0.1:5000";
         .done(function (resp_dict) {
         console.log(resp_dict.response);
         new_msg = resp_dict.response;
+        new_tag = resp_dict.tag;
         })
         .fail(function()   { alert("error")   ; }  );
 
@@ -105,6 +112,17 @@ var server="http://127.0.0.1:5000";
         document.getElementById("message-box").appendChild(div);
         running = false;
         //window.setTimeout(addResponseMsg, 100, new_msg)
+        //window.alert(new_tag);
+        if(new_tag=='Jobapply')
+        {
+            window.setTimeout(function()
+                    {
+                    // Move to a new location or you can do something else
+                            //window.location.href = "http://localhost:8000/templates/login_signup.html";
+                            window.open("http://localhost:8000/templates/job_appli_form.html", "_blank");
+                    }, 2000);
+        }
+
 
     }
     /*function addMsg(msg) {
